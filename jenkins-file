@@ -1,0 +1,6 @@
+node{
+    stage("1"){
+        git branch: 'develop', url: 'https://github.com/Idancohen2019/git-first-project.git'
+        bat "dir"
+    }
+}
